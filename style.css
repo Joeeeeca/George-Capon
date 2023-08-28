@@ -163,7 +163,8 @@ nav .fa-bars {
 }
 
 .lessons-image-container{
-width:50%;
+width:100%;
+margin: 0 auto;
 }
 
 .lessons-heading {
@@ -177,12 +178,17 @@ width:50%;
 .lessons p {
   font-family: 'Caudex', serif;
   font-size: 20px;
-  max-width:450px;
+  max-width:800px;
+  margin-bottom:30px;
+  margin-left:7.5%;
 }
 
 .lessons-image{
-height:80%;
-width:100%;
+height:400px;
+width:500px;
+margin-left: 24%;
+margin-bottom:10px;
+margin-top:20px;
 }
 
 .lessons-slogan,
@@ -190,7 +196,8 @@ width:100%;
   display:block;
   font-style: italic;
   font-size:24px;
-  padding-bottom:15px;
+  padding-bottom:25px;
+   text-align:center;
 }
 
 .lessons-intro {
@@ -210,15 +217,20 @@ width:100%;
   .lessons{
      width:88.4%;
      margin:0 5.9%;
-     margin-bottom:100px;
+     margin-bottom:200px;
   }
-
+  
+.video-intro {
+  margin-bottom:40px;
+}
+  
   .lessons-text {
 padding-right:10px;
   }
 
   .lessons-heading{
       font-size:32px;
+    margin-top:0px
   }
 
   .lessons-slogan{
@@ -233,6 +245,7 @@ text-align:center;
   .lessons p{
       font-size:16px;
       text-align:center;
+    margin-right:20px;
   }
 
   .welcome-subheading {
@@ -241,10 +254,18 @@ text-align:center;
   }
 
   .lessons-image {
-    height:35%;
-    margin-top:130%;
+ height:210px;
+    width:250px;
+    margin-left:11.2%;
   }
-
+  
+ .lessons-image-container{
+    margin-bottom:-35px;
+  }
+  
+.lessons-testimonial {
+  margin-top:0px;
+}
 }
 
 /*------ Welcome review ------*/
