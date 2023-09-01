@@ -438,6 +438,10 @@ color:#000;
     text-align:left;
   }
 
+.testimonial-col2 h3 {
+  margin-top:38px;
+}
+
   @media(max-width: 700px) {
 
     .lessons-header{
