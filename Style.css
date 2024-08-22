@@ -951,7 +951,14 @@ width:80%;
       .about-me-box {
         margin-bottom:20px;
         height:30%;
-        width:50%;
+        width:100%;
+      }
+
+       #about-me-box-1 img,
+      #about-me-box-2 img,
+      #about-me-box-3 img{
+        width:250px;
+        height:250px;
       }
 
       #about-me-box-3 {
